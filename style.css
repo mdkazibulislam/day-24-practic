@@ -107,3 +107,145 @@
     height: 800px;
     border-radius: 50%;
 }
+
+/* service-section */
+.service-section{
+    padding: 50px;
+}
+.service-section .content1{
+    color: #5252f0;
+    text-transform: uppercase;
+}
+.service-section h3{
+    width: 31%;
+    margin-top: 20px;
+    position: relative;
+}
+.service-section h3::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: #5252f0;
+    top: 75px;
+    left: 6px;
+}
+.service-section .content2{
+    width: 45%;
+}
+.service-section p{
+    margin-top: 40px;
+}
+
+.card{
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+}
+.card-body{
+    transition: .5s;
+}
+
+.card-body .card-title{
+    margin-bottom: 20px;
+}
+.card-body span{
+    width: 75px;
+    height: 75px;
+    background: #5252f0;
+    display: inline-block;
+    line-height: 5;
+    text-align: center;
+    border-radius:50% 50% 50% 0;
+    margin-bottom: 20px;
+    position: relative;
+    transition: .5s;
+}
+.card-body:hover{
+    background:#3a4af2;
+    border-radius: 10px;
+    transform: scale(1.05);
+    
+}
+.card-body:hover span{
+    background:#fff;
+   
+    
+}
+.card-body span::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: #5252f0;
+    top: 90px;
+    left: 1px;
+    transition: .5s;
+   
+}
+.card-body:hover span::before{
+    width: 70px;
+    background: #ddd;
+    
+}
+.card-body span i{
+    font-size: 30px;
+    color: #fff;
+}
+.card-body span:hover i{
+    color:#026dff;
+}
+.card-body:hover i{
+    color:#5252f0;
+    font-size: 30px; 
+}
+.card-body p{
+    margin-top: 20px;
+}
+
+/* animation-section */
+
+.animation-section{
+    background: url(https://i.ibb.co/vx3PyRq/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    color: rgb(255, 255, 255);
+}
+ .animation{
+     text-align: center;
+ }
+ .animation h5{
+     text-transform: uppercase;
+ }
+ .animation h3{
+     margin-top: 30px;
+     position: relative;
+ }
+ .animation h3::before{
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 3px;
+    background: #5252f0;
+    top: 40px;
+    left: 610px;
+ }
+ .animation p{
+     width: 50%;
+     margin: auto;
+     margin-top: 30px;
+     margin-bottom: 50px;
+ }
+ .play-button{
+    margin-top: 50px;
+    width: 130px;
+    height: 130px;
+    background: #5252f0;
+    line-height: 8;
+    border-radius: 50%;
+    margin: auto;
+ }
+ .play-button span{}
+ .play-button span i{}
